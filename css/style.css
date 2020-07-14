@@ -1,24 +1,19 @@
+
+/* intestazione */
+/* barra menù */
 .top-header {
   height: 70px;
   border-radius: 1px solid black;
   line-height: 70px;
 }
 
-.logo {
 
-}
 
 .img-logo {
   width: 60px;
 }
 
-.menu {
 
-}
-
-.list-nav {
-
-}
 
 .f-nav, .nav-login  {
   text-align: right;
@@ -47,13 +42,9 @@
   line-height: 50px;
 }
 
-
-
-@media screen and (max-width:992px) {
-
-  .bar {
-    /* height: 70px;
-    background-color: green; */
-  }
-
+.bar {
+  text-align: right;
+  height: 70px;
+  line-height: 70px;
 }
+/* barra menù */
