@@ -1,43 +1,59 @@
+.top-header {
+  height: 70px;
+  border-radius: 1px solid black;
+  line-height: 70px;
+}
+
+.logo {
+
+}
+
 .img-logo {
-  max-width: 60px;
+  width: 60px;
 }
 
-.header-top {
-  height: 50px;
-}
-.container {
-  border: 1px solid black;
-}
-.l-menu {
-  line-height: 50px;
+.menu {
+
 }
 
-.menu-nav{
-  /* height: 50px; */
+.list-nav {
+
 }
 
-.in-nav {
-  display: inline-block;
+.f-nav, .nav-login  {
   text-align: right;
-}
-
-.nav-login {
- display: inline-block;
-}
-
-.list-nav li, .nav-login li {
-  display: inline-block;
-  line-height: 50px;
-  padding: 0 10px;
   font-size: 10px;
 }
 
-.nav-login i {
-  padding-left: 10px;
+.top-header li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+
 }
 
-.login-li {
-  background: #000000;
+.nav-login {
+  text-align: left;
+}
+
+.icon {
+  padding-left: 5px;
+}
+.btn-nav {
+  background-color: #000;
   color: #fff;
-  padding: 15px 25px;
+  padding: 0 25px;
+  height: 50px;
+  line-height: 50px;
+}
+
+
+
+@media screen and (max-width:992px) {
+
+  .bar {
+    height: 70px;
+    background-color: green;
+  }
+
 }
