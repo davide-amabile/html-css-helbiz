@@ -48,3 +48,49 @@
   line-height: 70px;
 }
 /* barra menù */
+/* hero */
+
+.hero {
+  height: 600px;
+  position: relative;
+  background-image: url("../img/hero-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+p, h1{
+ color: #fff;
+ text-align: center;
+}
+
+h1 {
+  font-size: 45px;
+  text-transform: capitalize;
+}
+
+p {
+  padding: 20px 0;
+}
+
+.img-pay img {
+  width: 150px;
+  display: block;
+  margin: 20px auto;
+}
+
+@media screen and (max-width: 769px) {
+  .img-pay img {
+    width: 100px;
+    display: block;
+    margin: 20px auto;
+  }
+}
+/* /hero */
+/* /header */
