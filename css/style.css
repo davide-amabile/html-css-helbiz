@@ -31,3 +31,13 @@
   padding: 0 10px;
   font-size: 10px;
 }
+
+.nav-login i {
+  padding-left: 10px;
+}
+
+.login-li {
+  background: #000000;
+  color: #fff;
+  padding: 15px 25px;
+}
