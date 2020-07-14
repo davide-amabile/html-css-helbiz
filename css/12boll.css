@@ -1,6 +1,7 @@
 /* debug */
 .debug .container {
-  background-color: pink;
+  /* background-color: pink; */
+  border: 1px solid black;
 }
 
 .debug [class*="col-"] {
